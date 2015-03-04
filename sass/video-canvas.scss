@@ -1,0 +1,51 @@
+video, canvas {
+  border:1px solid #000;
+}
+
+#vfilter-section{
+  position: relative;
+  width: 306px;
+  margin: 400px auto;
+}
+
+canvas{
+  position: absolute;
+  margin: 27px 50px;
+  background-color: black;
+}
+
+canvas:nth-child(1){
+  margin-left: -412px;
+}
+
+canvas:nth-child(5){
+  margin-left: 512px;
+}
+
+canvas:nth-child(3){
+  margin-top: -309px;
+}
+
+canvas:nth-child(7){
+  margin-top: 362px;
+}
+
+canvas:nth-child(2){
+  margin-left: -206px;
+  margin-top: -154px;
+}
+
+canvas:nth-child(4){
+  margin-left: 306px;
+  margin-top: -154px;
+}
+
+canvas:nth-child(6){
+  margin-left: -206px;
+  margin-top: 207px;
+}
+
+canvas:nth-child(8){
+  margin-left: 306px;
+  margin-top: 207px;
+}

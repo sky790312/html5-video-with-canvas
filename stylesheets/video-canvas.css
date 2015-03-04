@@ -1,0 +1,62 @@
+/* line 1, ../sass/video-canvas.scss */
+video, canvas {
+  border: 1px solid #000;
+}
+
+/* line 5, ../sass/video-canvas.scss */
+#vfilter-section {
+  position: relative;
+  width: 306px;
+  margin: 400px auto;
+}
+
+/* line 11, ../sass/video-canvas.scss */
+canvas {
+  position: absolute;
+  margin: 27px 50px;
+  background-color: black;
+}
+
+/* line 17, ../sass/video-canvas.scss */
+canvas:nth-child(1) {
+  margin-left: -412px;
+}
+
+/* line 21, ../sass/video-canvas.scss */
+canvas:nth-child(5) {
+  margin-left: 512px;
+}
+
+/* line 25, ../sass/video-canvas.scss */
+canvas:nth-child(3) {
+  margin-top: -309px;
+}
+
+/* line 29, ../sass/video-canvas.scss */
+canvas:nth-child(7) {
+  margin-top: 362px;
+}
+
+/* line 33, ../sass/video-canvas.scss */
+canvas:nth-child(2) {
+  margin-left: -206px;
+  margin-top: -154px;
+}
+
+/* line 38, ../sass/video-canvas.scss */
+canvas:nth-child(4) {
+  margin-left: 306px;
+  margin-top: -154px;
+}
+
+/* line 43, ../sass/video-canvas.scss */
+canvas:nth-child(6) {
+  margin-left: -206px;
+  margin-top: 207px;
+}
+
+/* line 48, ../sass/video-canvas.scss */
+canvas:nth-child(8) {
+  margin-left: 306px;
+  margin-top: 207px;
+}
